@@ -20,5 +20,5 @@ series.loc["a"] = 200
 
 print(series) 
 
-
+# ini buat filter nilai apa aja yang mau di print
 print(series[series <= 200])
