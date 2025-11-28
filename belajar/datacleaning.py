@@ -7,9 +7,9 @@ df = pd.read_csv("data.csv")
 # df = df.drop(columns=["Legendary", "No"])
 
 # #2. Handle missing data
-# df = df.dropna(subset=["Type2"])
+# df = df.dropna(subset=["Type2"])  dropna = drop non available
 
-# df = df.fillna({"Type2": "None"})
+# df = df.fillna({"Type2": "None"}) fillna = fill non available
 
 #Fixing inconsistent values
 # df["Type1"] = df["Type1"].replace({"Grass": "GRASS",
